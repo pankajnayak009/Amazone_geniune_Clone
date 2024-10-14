@@ -1,0 +1,1887 @@
+* {
+
+    margin: 0;
+    font-family: Arial;
+    border: border-box;
+
+}
+
+
+
+
+
+.navbar {
+
+
+    height: 60px;
+    background-color: rgb(18, 18, 26);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    line-height: normal;
+    flex-wrap: nowrap !important;
+
+}
+
+
+
+
+/* Custom CSS to override Bootstrap's default paragraph styles */
+p {
+    margin-bottom: 0 !important;
+    /* Removes margin-bottom, using !important to ensure it overrides Bootstrap */
+}
+
+
+.navlogo {
+
+    height: 50px;
+    width: 100px;
+
+}
+
+.logo {
+
+    background-image: url("amazon_logo.png");
+    background-size: cover;
+    height: 50px;
+    width: 100px;
+}
+
+
+
+.nav-border {
+
+    border: 2px solid transparent;
+
+}
+
+.nav-border:hover {
+
+    border: 2px solid white;
+}
+
+.navaddress {
+
+    /* margin-left: 30px;  */
+    text-align: center;
+    align-items: center;
+    /* width: 100px;   */
+    height: 50px;
+    padding-top: 10px;
+
+}
+
+.addicon {
+
+    display: flex;
+    align-items: center;
+
+}
+
+.add-first {
+
+    margin-left: 15px;
+    font-size: 0.85rem;
+    color: #cccccc;
+}
+
+.add-sec {
+    padding-left: 3px;
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+/* third box */
+.nav-search {
+
+    display: flex;
+    /* background-color: pink; */
+    width: 600px;
+    height: 42px;
+    border-radius: 4px;
+    justify-content: space-evenly;
+    border: none;
+
+}
+
+.nav-search:hover {
+
+    border: 2px solid rgb(243, 168, 71);
+}
+
+
+
+.border-search {
+
+    border: 2px solid transparent;
+}
+
+.border-search:hover {
+
+    border: 2px solid rgb(243, 103, 71);
+}
+
+.border-search:active {
+
+    border: 2px solid white;
+
+}
+
+.search-select {
+
+    background-color: #f3f3f3;
+    width: 50px;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border: none;
+    height: 40px;
+}
+
+.search-input {
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+
+
+
+
+
+}
+
+
+.nav-search:active {
+
+
+    border: 2px solid rgb(243, 168, 71);
+
+
+}
+
+.search-icon {
+
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    background-color: rgb(243, 168, 71);
+
+
+    border-top-Right-radius: 4px;
+    border-bottom-Right-radius: 4px;
+    border: none;
+    height: 40px;
+
+
+}
+
+/* //box fourth */
+.country_1 {
+
+    display: flex;
+    border: 2px solid rgb(134, 127, 127);
+    text-align: center;
+    align-items: center;
+    margin-left: 1px;
+
+    justify-content: space-evenly;
+    padding: 10px;
+    background-color: transparent;
+    height: 40px;
+
+}
+
+#select_1 {
+
+    height: 25px;
+    width: 100px;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+
+.country_1 p {
+
+    margin-left: 10px;
+
+}
+
+.language-select_1 i {
+
+    padding: 10px;
+
+}
+
+/* adding form link with account and list tab */
+.nav-signin a {
+    text-decoration: none;
+    /* Remove underline from link */
+    color: white;
+    /* Link color */
+    font-weight: bold;
+    /* Make the link bold */
+}
+
+.nav-signin a:hover {
+    color: #005bb5;
+    /* Change color on hover */
+}
+
+/** fourth box **/
+
+
+span {
+    font-size: 0.7rem;
+}
+
+.nav-second {
+
+    font-size: 0.85;
+
+    font-weight: 700;
+
+}
+
+
+/* nav cart */
+
+.nav-cart {
+
+    display: flex;
+    align-items: end;
+    font-size: 16px;
+    font-weight: 700;
+    margin-right: 20px;
+
+
+}
+
+.icon {
+
+    font-size: 30px;
+
+}
+
+/* Second nav panel */
+
+.panel {
+
+    background-color: rgb(35, 47, 62);
+    height: 39px;
+    color: white;
+    /* font-family: inherit; */
+    font-weight: 700;
+    /* font-size: 14px; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+
+}
+
+.panel-ops p {
+
+    display: inline;
+    padding-left: 15px;
+    /* align-items: center; */
+    /* height: 100px; */
+
+}
+
+.panel-ops {
+
+    height: 20px;
+
+    align-items: center;
+    width: 70%;
+    /* font-size: 14px; */
+    font-size: 0.85rem;
+    justify-content: space-evenly;
+
+
+
+}
+
+.panel-second-div {
+
+    /* justify-content: space-between; */
+    margin-left: 100px;
+    /* margin-right: 0; */
+    font-size: 0.9rem;
+}
+
+/* bootstrap addjusting according to my content */
+
+
+
+
+/* Disable Bootstrap's border utility */
+/* .border {
+    border: none !important;
+} */
+
+
+/* Media query for navbar-section */
+
+@media (max-width:932px) {
+
+    .navbar {
+
+        /* height: 60px; */
+        background-color: rgb(18, 18, 26);
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+
+    }
+
+    /* //box fourth */
+    .country_1 {
+
+        display: flex;
+        border: 2px solid rgb(134, 127, 127);
+        text-align: center;
+        align-items: center;
+        margin-left: 10px;
+        justify-content: space-evenly;
+        padding: 10px;
+        background-color: transparent;
+        height: 15px;
+        display: none;
+
+    }
+
+    #select_1 {
+
+        height: 2rem;
+        width: 100px;
+        border-radius: 5px;
+
+    }
+
+    .country_1 p {
+
+        margin-left: 10px;
+
+    }
+
+    .language-select_1 i {
+
+        padding: 10px;
+
+    }
+
+
+    /* .country p {
+        margin-left: 10px;
+    }
+
+    .language-select i {
+        padding: 10px;
+    } */
+
+    .navlogo {
+        height: 50px;
+        width: 100px;
+
+    }
+
+    /* .logo {
+
+        background-image: url("download.png");
+        background-size: cover;
+        height: 38px;
+        width: 45px;
+        margin-top: 3px;
+        border-top-left-radius: 5px;
+        border-bottom-left-radius: 5px;
+        border-radius: 5px;
+        margin-right: 10px;
+        margin-left: 5px;
+
+
+    } */
+
+    .nav-border {
+        border: 2px solid transparent;
+
+    }
+
+    .nav-border :hover {
+        border: 2px solid white;
+    }
+
+    /* Uncommented but redundant code removed */
+    .navaddress {
+
+        margin-left: 30px;
+        text-align: center;
+        align-items: center;
+        width: 100px;
+        display: none;
+
+    }
+
+
+
+    /* third box */
+    .nav-search {
+
+        display: flex;
+        /* background-color: pink; */
+        /* width: 600px; */
+        height: 42px;
+        border-radius: 4px;
+        justify-content: space-evenly;
+        border: none;
+
+    }
+
+    .nav-search:hover {
+
+        border: 2px solid rgb(243, 168, 71);
+    }
+
+
+
+    .border-search {
+
+        border: 2px solid transparent;
+    }
+
+    .border-search:hover {
+
+        border: 2px solid rgb(243, 103, 71);
+    }
+
+    .border-search:active {
+
+        border: 2px solid white;
+
+    }
+
+    .search-select {
+
+        background-color: #f3f3f3;
+        width: 50px;
+        border-top-left-radius: 4px;
+        border-bottom-left-radius: 4px;
+        border: none;
+        height: 40px;
+    }
+
+    .search-input {
+        width: 100%;
+        font-size: 1rem;
+        border: none;
+
+
+    }
+
+
+    .nav-search:active {
+
+
+        border: 2px solid rgb(243, 168, 71);
+
+
+    }
+
+    /* Fourth box */
+    span {
+        font-size: 0.7rem;
+        display: none;
+    }
+
+    .nav-second {
+        font-size: 0.85rem;
+        /* Added unit */
+        font-weight: 700;
+        display: none;
+    }
+
+    /* Nav cart */
+    .nav-cart {
+
+        display: flex;
+        align-items: end;
+        font-size: 16px;
+        font-weight: 700;
+        margin-right: 5px;
+
+    }
+
+    .icon {
+        font-size: 30px;
+    }
+}
+
+
+
+
+/* Second nav panel */
+.panel {
+    background-color: rgb(35, 47, 62);
+    height: 39px;
+    color: white;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+
+}
+
+.panel-ops p {
+
+    display: inline;
+    padding-left: 15px;
+    /* display: none; */
+
+}
+
+.panel-ops {
+    height: 20px;
+    align-items: center;
+    width: 70%;
+    font-size: 0.85rem;
+    /* display: none; */
+    /* justify-content: space-evenly; */
+}
+
+.panel-second-div {
+    margin-left: 200px;
+    font-size: 0.9rem;
+    /* display: none; */
+}
+
+/* media query apply on secon header panel */
+@media (max-width:932px) {
+
+    /* Second nav panel */
+    .panel {
+        background-color: rgb(35, 47, 62);
+        height: 39px;
+        color: white;
+        font-weight: 700;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        /* display: none; */
+
+
+    }
+
+    .panel-ops p {
+
+        display: inline;
+        padding-left: 15px;
+        display: none;
+
+    }
+
+    .panel-ops {
+        height: 20px;
+        align-items: center;
+        width: 70%;
+        font-size: 0.85rem;
+        display: none;
+        /* justify-content: space-evenly; */
+    }
+
+    .panel-second-div {
+        margin-left: 200px;
+        font-size: 10px;
+        /* display: none;  */
+        margin-left: 150px;
+    }
+
+
+}
+
+/* Hero-section */
+.hero-section {
+    background-image: url("hero_image.jpg");
+    height: 350px;
+    background-size: cover;
+    display: flex;
+    /* align-items: center; */
+    /* align-items: flex-end; */
+}
+
+/* carousal  */
+
+.carousel-control-prev,
+.carousel-control-next {
+    top: 100%;
+    /* transform: translateY(-50%);  */
+    background-color: blue;
+
+    width: 2rem;
+    height: 2rem;
+    display: none;
+    border: 5px solid red;
+
+}
+
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+    display: inline-block;
+    width: 2rem;
+    height: 2rem;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: 100% 100%;
+    margin-top: 0px;
+    /* display: none; */
+    margin-bottom: 50px;
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 15%;
+    padding: 0;
+    color: #fff;
+    text-align: center;
+    background: 0 0;
+    border: 0;
+    opacity: .5;
+    transition: opacity .15s ease;
+    height: 100%;
+}
+
+.carousel-item {
+
+    display: flex;
+
+
+}
+
+/* apply media query on carousal */
+
+@media(max-width:932px) {
+
+
+    .carousel-control-prev,
+    .carousel-control-next {
+        top: 100%;
+        /* transform: translateY(-50%);  */
+        background-color: blue;
+
+        width: 2rem;
+        height: 1rem;
+        display: none;
+        border: 5px solid red;
+
+    }
+
+    .carousel-control-next-icon,
+    .carousel-control-prev-icon {
+        display: inline-block;
+        width: 10px;
+        height: 5px;
+        background-repeat: no-repeat;
+        background-position: 50%;
+        background-size: 100% 100%;
+        margin-top: 0px;
+        /* display: none; */
+        margin-bottom: 40px;
+    }
+
+    .carousel-control-next,
+    .carousel-control-prev {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        z-index: 1;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 15%;
+        padding: 0;
+        color: #fff;
+        text-align: center;
+        background: 0 0;
+        border: 0;
+        opacity: .5;
+        transition: opacity .15s ease;
+        height: 100%;
+    }
+
+    /* .carousel-item {
+
+    display: flex;
+
+
+} */
+
+    .carousel-item img {
+
+        height: 200px;
+    }
+
+
+
+}
+
+.hero-msg {
+
+    background-color: rgb(50, 64, 101);
+    color: white;
+    height: 50px;
+    /* display: flex; */
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.85rem;
+    width: 100%;
+    /* margin-left: 20px;
+    margin-right: 20px; */
+    margin-top: 10px;
+    margin-bottom: 10px;
+    /* border: 2px solid blue; */
+    /* padding: 20px; */
+    padding-top: 10px;
+
+
+
+}
+
+.hero-msg {
+    position: absolute;
+    /* Position it over the image */
+    /* position: static; */
+    top: 80%;
+    /* Center vertically */
+    left: 0%;
+    /* Center horizontally */
+    /* transform: translate(-50%, -50%); Adjust for perfect centering */
+    color: white;
+    /* Change text color for contrast */
+    text-align: center;
+    /* Center text */
+    /* background: rgba(0, 0, 0, 0.5); Semi-transparent background */
+    padding: 15px;
+    /* Add some padding */
+    /* border-radius: 5px; Optional: rounded corners */
+
+
+    background-color: white;
+    color: black;
+}
+
+.hero-msg:hover {
+
+    transform: scale(1.05);
+
+    box-shadow: 30px 5px 15px 5px rgba(66, 68, 90, 1);
+
+    border: 1px solid pink;
+
+
+}
+
+.hero-msg a {
+
+    color: rgb(61, 165, 230);
+    text-decoration: none;
+
+}
+
+.hero-msg a:hover {
+
+    color: blue;
+
+
+}
+
+.hero-msg a:active {
+
+    color: green;
+
+
+}
+
+
+/* media query on .hero-section */
+@media(max-width:932px) {
+
+    .hero-msg {
+
+        background-color: rgb(50, 64, 101);
+        color: white;
+        height: 50px;
+        /* display: flex; */
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        font-size: 0.85rem;
+        width: 100%;
+        margin-left: 0px;
+        margin-right: 50px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        /* border: 2px solid blue; */
+        /* padding: 20px; */
+        padding-top: 0px;
+
+
+
+    }
+
+
+    .hero-msg {
+        position: absolute;
+        /* Position it over the image */
+        /* position: static; */
+        top: 80%;
+        /* Center vertically */
+        left: 0%;
+        /* Center horizontally */
+        right: 50%;
+        /* transform: translate(-50%, -50%); Adjust for perfect centering */
+        color: white;
+        /* Change text color for contrast */
+        text-align: center;
+        /* Center text */
+        /* background: rgba(0, 0, 0, 0.5); Semi-transparent background */
+        padding: 15px;
+        /* Add some padding */
+        border-radius: 5px;
+
+
+        background-color: white;
+        color: black;
+        /* margin-left: 10px; */
+        /* margin-right: 100px; */
+    }
+
+    .hero-msg:hover {
+
+        transform: scale(1.05);
+
+        box-shadow: 30px 5px 15px 5px rgba(66, 68, 90, 1);
+
+        border: 1px solid pink;
+
+
+    }
+
+    .hero-msg a {
+
+        color: rgb(61, 165, 230);
+        text-decoration: none;
+
+    }
+
+    .hero-msg a:hover {
+
+        color: blue;
+
+
+    }
+
+    .hero-msg a:active {
+
+        color: green;
+
+
+    }
+
+
+}
+
+/* media wuey apply on hero section */
+
+@media(max-width:932px) {
+    .hero-section {
+
+        background-image: url("hero_image.jpg");
+        height: 160px;
+        width: 100%;
+        /* background-size: cover; */
+        /* display: flex; */
+        /* align-items: center; */
+        /* align-items: flex-end; */
+
+    }
+
+    .hero-msg {
+
+        background-color: white;
+        color: black;
+        height: 20px;
+        display: flex;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        font-size: 7px;
+        /* width: 5%; */
+        /* margin-left: 10px; */
+        margin-right: 10px;
+        margin-bottom: 55px;
+        /* display: none; */
+
+    }
+
+    .hero-msg:hover {
+
+        transform: scale(1.05);
+
+        box-shadow: 30px 5px 15px 5px rgba(66, 68, 90, 1);
+
+        border: 1px solid pink;
+
+
+    }
+
+
+    .hero-msg a {
+
+        color: rgb(63, 198, 203);
+        text-decoration: none;
+        /* display: none; */
+
+    }
+
+
+}
+
+
+/* shop-section */
+
+.shop-section {
+    /* position: absolute; */
+
+    color: black;
+    display: flex;
+    justify-content: space-evenly;
+
+    background-color: rgb(223, 228, 227);
+    flex-wrap: wrap;
+    border-bottom: 0.1px solid rgb(207, 193, 193);
+    /* z-index: -1; */
+
+}
+
+.box {
+    margin-top: 20px;
+    /* height: 400px; */
+    width: 23%;
+    /* border: 2px solid black; */
+
+    padding: 20px 0px 15px;
+    background-color: white;
+    margin-bottom: 10px;
+
+}
+
+.box:hover {
+    transform: scale(1.05);
+
+    box-shadow: 30px 5px 15px 5px rgba(66, 68, 90, 1);
+
+    border: 1px solid pink;
+}
+
+.box h2 {
+
+    margin-left: 10px;
+    font-weight: 700;
+}
+
+.box p {
+    margin-left: 10px;
+    margin-top: 30px;
+    color: rgb(63, 209, 226);
+}
+
+
+
+.cart-img {
+    height: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    margin-top: 5px;
+
+
+
+}
+
+h2 {
+    font-size: inherit !important;
+    /* Use the parent font size */
+}
+
+/* Override Bootstrap's box-sizing rule */
+/* *, ::after, ::before {
+    box-sizing: content-box !important; /* Reset to content-box */
+/* } */
+
+
+/* apply media query on  shope-section */
+
+@media (max-width:932px) {
+
+    .shop-section {
+
+        color: black;
+        /* display: flex; */
+        justify-content: space-evenly;
+
+        background-color: rgb(223, 228, 227);
+        /* flex-wrap: wrap; */
+        border-bottom: 0.1px solid rgb(207, 193, 193);
+        display: grid;
+        grid-template-rows: repeat(4, 1fr);
+        grid-template-columns: repeat(2, 1fr);
+        /* margin-left: 40px; */
+    }
+
+    .box {
+
+        margin-top: 20px;
+         height: 300px; 
+        width: 93%;
+        /* border: 2px solid black; */
+    
+        padding: 20px 0px 15px;
+        background-color: white;
+        margin-bottom: 10px;
+        margin: 10px;
+    
+    }
+    
+    .box:hover {
+        transform: scale(1.05);
+    
+        box-shadow: 30px 5px 15px 5px rgba(66, 68, 90, 1);
+    
+        border: 1px solid pink;
+    }
+    
+    .box h2 {
+    
+        margin-left: 10px;
+        font-weight: 700;
+    }
+    
+    .box p {
+        margin-left: 10px;
+        margin-top: 10px;
+        color: rgb(63, 209, 226);
+        font-size: 12px;
+    }
+    
+    
+    
+    .cart-img {
+        height: 200px; 
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin-right: 10px;
+        margin-left: 10px;
+        margin-bottom: 20px;
+        margin-top: 5px;
+        width: 90%;
+    
+    
+    
+    }
+}
+
+
+/* brands-of-the-week  carausal*/
+
+.brands-of-the-week {
+    color: Black;
+
+    font-size: 20px;
+    font-weight: 700;
+    /* text-align: center; */
+    margin-left: 40px;
+    margin: 20px;
+}
+
+#carouselExampleIndicators {
+    margin-bottom: 50px;
+}
+
+
+@media(max-width:932px) {
+
+    .brands-of-the-week {
+        color: Black;
+
+        font-size: 12px;
+        font-weight: 700;
+        /* text-align: center; */
+        margin-left: 40px;
+        margin: 10px;
+    }
+
+    #carouselExampleIndicators {
+        margin-bottom: 10px;
+    }
+
+
+}
+
+
+
+
+
+/* footer-section */
+
+.footer {
+    /* border: 2px solid black; */
+
+    height: 765px;
+    width: 100%;
+    background-color: rgb(35, 47, 62);
+    color: white;
+    /* text-align: center; */
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.back-to-top {
+
+    background-color: rgb(72, 87, 105);
+    /* margin-bottom: 40px; */
+    height: 49px;
+    text-align: center;
+    align-items: center;
+    /* padding-top: 20px; */
+    /* padding-bottom: 25px; */
+    width: 100%;
+
+
+}
+
+.back-to-top a {
+    font-weight: 700;
+    color: white;
+    text-decoration: none;
+
+    display: block;
+    text-align: center;
+
+    padding: 15px;
+    /* line-height: 19px; */
+    font-size: 13px;
+    /* display: block; */
+
+}
+
+.footer-pane1 {
+
+    /* border: 2px solid black; */
+
+    /* height: 310px; */
+    width: 100%;
+    background-color: rgb(35, 47, 62);
+    color: white;
+    display: flex;
+    /* text-align: center; */
+    justify-content: center;
+    /* border: 2px solid green; */
+    margin-top: 0px;
+    flex-wrap: wrap;
+    text-decoration: none;
+
+
+
+}
+
+.footer-ul-list {
+    padding-top: 10px;
+    /* display: block;  */
+    /* align-items: center; */
+    /* border: 2px solid black; */
+    color: white;
+    /* height: 350px; */
+    width: 17%;
+    display: flex;
+    margin-top: 2px;
+
+
+
+}
+
+.footer-ul-list p {
+    font-size: 16px;
+    font-weight: 700;
+
+}
+
+.footer-ul-list a {
+
+    display: block;
+    justify-content: space-evenly;
+    margin-top: 10px;
+    color: rgb(219, 221, 221);
+    text-decoration: none;
+    font-size: 14px;
+    align-items: center;
+
+}
+
+
+/* loogs */
+
+.amazone-logos {
+    background-color: rgb(72, 87, 105);
+    margin-bottom: 40px;
+    height: 80px;
+    text-align: center;
+    align-items: center;
+    /* padding-top: 20px; */
+    /* padding-bottom: 25px; */
+    width: 100%;
+    margin-top: 20px;
+    justify-content: center;
+    display: flex;
+
+
+}
+
+.footer-logo {
+
+    background-image: url("amazon_logo.png");
+    background-size: cover;
+    height: 70px;
+    width: 150px;
+}
+
+.country {
+
+    display: flex;
+    border: 2px solid rgb(134, 127, 127);
+    text-align: center;
+    align-items: center;
+    margin-left: 10px;
+    justify-content: space-evenly;
+    padding: 15px;
+    background-color: transparent;
+    height: 40px;
+
+}
+
+#select {
+
+    height: 2rem;
+    width: 100px;
+    border-radius: 5px;
+
+}
+
+.country p {
+
+    margin-left: 10px;
+
+}
+
+.language-select i {
+
+    padding: 10px;
+
+}
+
+.final-footer-section {
+
+    display: flex;
+    /* border: 2px solid black; */
+    height: 200px;
+    flex-wrap: wrap;
+    /* flex-direction: row; */
+
+}
+
+
+.term-condition-section {
+
+    display: flex;
+}
+
+/* .term-condition-section p{
+    justify-content: space-evenly;
+} */
+.affilates-section {
+    height: 50px;
+    justify-content: space-evenly;
+
+}
+
+.term-condition-section p {
+    font-size: 12px;
+    margin-left: 15px;
+
+}
+
+
+.affilates-section p {
+    font-size: 12px;
+    margin-left: 20px;
+    margin-top: 10px;
+
+}
+
+.amazone-final-intro-section {
+    height: 50px;
+
+}
+
+.amazone-final-intro-section-singup-link {
+    text-decoration: none;
+}
+
+.fotters-font-size {
+    padding-top: 10px;
+    /* display: block;  */
+    /* align-items: center; */
+    /* border: 2px solid black; */
+    color: white;
+    /* height: 350px; */
+    width: 17%;
+    display: flex;
+    margin-top: 2px;
+}
+
+.fotters-font-size a {
+    font: 12px;
+
+}
+
+/* hide the  mobile footer view */
+
+
+
+.mobile-view-lowest {
+    display: block;
+}
+
+
+
+/* hide mobile viewd footerview from desktop screen */
+
+@media (min-width: 933px) {
+    .mobile-view-lowest {
+        display: none;
+        /* Hide mobile footer on larger screens */
+    }
+}
+
+/* media query applying on Mobile view section */
+
+@media (max-width:932px) {
+
+    .footer {
+
+        display: none;
+    }
+
+    .mobile-view-lowest {
+
+        display: block;
+
+    }
+
+
+
+
+
+    .mobile-view-lowest {
+        margin: 0;
+        font-family: Arial;
+        border: border-box;
+        /* background-color: blue; */
+        /* height: 600px; */
+    }
+
+
+
+
+    .amazone-services {
+
+        /* height: 300px;  */
+        width: 100%;
+        /* background-color: rgb(35, 47, 62);
+        background-color: rgb(19, 26, 34); */
+        background-color: rgb(35, 47, 62);
+        color: white;
+        display: flex;
+        justify-content: center;
+        margin-top: 0px;
+        flex-wrap: wrap;
+        text-decoration: none;
+        padding: 20px;
+
+
+
+
+    }
+
+
+
+    .back-to-top {
+
+        background-color: rgb(72, 87, 105);
+
+        height: 49px;
+        text-align: center;
+        align-items: center;
+        /* padding-top: 20px; */
+        /* padding-bottom: 25px;  */
+        width: 100%;
+
+
+    }
+
+
+    .back-to-top a {
+        font-weight: 700;
+        color: white;
+        text-decoration: none;
+
+
+        text-align: center;
+
+        padding: 15px;
+        line-height: 15px;
+        font-size: 13px;
+        display: block;
+        /* margin-top: 15px; */
+
+
+
+    }
+
+
+
+    .footer-ul-list-for-mobile-view {
+
+        /* padding-top: 10px; */
+
+
+        color: white;
+        height: 350px;
+        width: 50%;
+        display: flex;
+        margin-top: 2px;
+        line-height: 30px;
+
+    }
+
+    .footer-ul-list-for-mobile-view ul {
+
+        padding-right: 20px;
+        margin-left: 0px;
+        list-style-type: none;
+    }
+
+    .footer-ul-list-for-mobile-view p {
+
+        /* font-size: 16px; */
+        font-weight: 700;
+        margin-bottom: 500px;
+
+
+    }
+
+    .footer-ul-list-for-mobile-view a {
+
+        display: block;
+        justify-content: space-evenly;
+        margin-top: 10px;
+        color: rgb(219, 221, 221);
+        text-decoration: none;
+        font-size: 14px;
+        align-items: center;
+
+    }
+
+    .footer-signup p {
+        margin-right: 30px;
+        font-size: 12px;
+
+    }
+
+    .amazone-final-intro-section a {
+        text-decoration: none;
+
+    }
+
+    .footer-signup a {
+        text-decoration: none;
+        color: white;
+
+
+    }
+
+    .footer-signup a:hover {
+
+        color: rgb(243, 168, 71);
+
+    }
+
+    .footer-signup a:active {
+        color: blue;
+
+    }
+
+
+    .term-condition-section p {
+        font-size: 10px;
+        margin-left: 0px;
+
+        padding-right: 20px;
+
+    }
+
+
+
+    .affilates-section p {
+        font-size: 12px;
+        margin-left: 20px;
+        margin-top: 10px;
+
+    }
+
+    .fotters-font-size {
+        padding-top: 10px;
+        /* display: block;  */
+        /* align-items: center; */
+        /* border: 2px solid black; */
+        color: white;
+        /* height: 350px; */
+        width: 17%;
+        display: flex;
+        margin-top: 2px;
+
+    }
+
+    .fotters-font-size a {
+        font: 12px;
+
+    }
+
+}
+
+
+/* amazone login form and signup form */
+
+.amazonelogo {
+
+    display: flex;
+    justify-content: center;
+
+}
+
+.amazone_logo {
+
+    height: 70px;
+    width: 200px;
+    /* align-items: center; */
+    border-radius: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.Login_form {
+
+
+    border: 2px solid black;
+    height: 350px;
+    width: 30%;
+    /* text-align: center;  */
+    padding: 20px;
+    line-height: 25px;
+    border-radius: 5px;
+    border: 1px solid rgb(186, 187, 188);
+    text-decoration: none;
+
+
+}
+
+.Login_form a {
+
+
+    text-decoration: none;
+
+
+}
+
+input,
+button,
+label {
+    display: block;
+    margin-bottom: 10px;
+    /* Adds spacing between elements */
+    border: 1px solid rgb(186, 187, 188);
+}
+
+input {
+    height: 40px;
+    width: 400px;
+    border: 1px solid rgb(186, 187, 188);
+    /* border: 1px solid rgb(186, 187, 188); */
+}
+
+.form-button {
+
+    height: 35px;
+    width: 410px;
+    background-color: rgb(500, 209, 122);
+
+    /* background-color: rgb(253, 154, 21);*/
+    font-size: 16px;
+    font-weight: 300;
+    border-radius: 3px;
+    margin-top: 30px;
+    /* border: none; */
+    border: 1px solid rgb(186, 187, 188);
+
+}
+
+.form-button:hover {
+
+    background-color: rgb(253, 154, 21);
+}
+
+.form-button:active {
+    background-color: slateblue;
+}
+
+/* To place an anchor (<a>) tag between two <hr> (horizontal rule) elements, you can do so easily by structuring your HTML like this: */
+
+.hr-with-text {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0;
+    /* text-align: center;  */
+
+}
+
+.hr-with-text hr {
+
+    width: 30%;
+    border: none;
+    border-top: 1px solid #ccc;
+    /* margin: 0 10px; */
+
+}
+
+.hr-with-text a {
+
+    /* color: #000; */
+    text-decoration: none;
+    text-align: center;
+
+}
+
+
+
+
+
+/* signup_form */
+.Signup_form {
+
+    border: 1px solid rgb(186, 187, 188);
+    height: 400px;
+    width: 30%;
+    /* text-align: center; */
+    padding: 20px;
+    line-height: 25px;
+    border-radius: 5px;
+    margin-bottom: 50px;
+
+}
+
+.Signup_form a {
+
+    text-decoration: none;
+
+
+}
+
+
+/* Mobile-view Login & signup form */
+
+@media (max-width:932px) {
+
+    /* amazone login form and signup form */
+
+    .amazonelogo {
+
+        display: flex;
+        justify-content: center;
+
+    }
+
+    .amazone_logo {
+
+        height: 70px;
+        width: 200px;
+        /* align-items: center; */
+        border-radius: 30px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+
+    }
+
+    form {
+        display: flex;
+        justify-content: center;
+        margin-top: 10px;
+    }
+
+    .Login-form-responsive {
+
+
+        border: 2px solid black;
+        height: 350px;
+        width: 100%;
+        /* text-align: center; */
+        /* padding: 20px; */
+        line-height: 25px;
+        border-radius: 5px;
+        border: 1px solid rgb(186, 187, 188);
+        text-decoration: none;
+        margin: 100px;
+        /* /* margin-left: 100px; */
+        /* margin-right: 50px;
+        margin-left: 50px; */
+
+
+    }
+
+    .Login_form a {
+
+
+        text-decoration: none;
+
+
+    }
+
+    input,
+    button,
+    label {
+        display: block;
+        margin-bottom: 10px;
+        /* Adds spacing between elements */
+        border: 1px solid rgb(186, 187, 188);
+    }
+
+    input {
+        height: 40px;
+        width: 100%;
+        border: 1px solid rgb(186, 187, 188);
+        /* border: 1px solid rgb(186, 187, 188); */
+        /* padding: 10px; */
+    }
+
+    .form-button {
+
+        height: 35px;
+        /* width: 100%; */
+        width: 350px;
+        background-color: rgb(500, 209, 122);
+
+        /* background-color: rgb(253, 154, 21);*/
+        font-size: 16px;
+        font-weight: 300;
+        border-radius: 3px;
+        margin-top: 30px;
+        /* border: none; */
+        border: 1px solid rgb(186, 187, 188);
+
+    }
+
+    /* button:hover {
+
+        background-color: rgb(253, 154, 21);
+    } */
+
+    /* button:active {
+        background-color: slateblue;
+    }  */
+
+    /* To place an anchor (<a>) tag between two <hr> (horizontal rule) elements, you can do so easily by structuring your HTML like this: */
+
+    .hr-with-text {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 20px 0;
+        text-align: center;
+    }
+
+
+
+    .hr-with-text hr {
+
+        width: 30%;
+        border: none;
+        border-top: 1px solid #ccc;
+        /* margin: 0 10px; */
+
+    }
+
+    .hr-with-text a {
+        /* color: #000; */
+        text-decoration: none;
+
+    }
+
+
+    /* signup_form */
+    .Signup_form {
+
+        border: 1px solid rgb(186, 187, 188);
+        height: 400px;
+        width: 100%;
+        /* text-align: center; */
+        padding: 20px;
+        line-height: 25px;
+        border-radius: 5px;
+        margin-bottom: 50px;
+        margin: 20px;
+
+    }
+
+    .Signup_form a {
+
+        text-decoration: none;
+
+
+    }
+
+
+
+}
+
+
+
+
+/* footer for mobile view */
