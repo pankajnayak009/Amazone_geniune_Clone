@@ -7,3 +7,4 @@ I’m thrilled to introduce my latest project, an Amazon website clone, develope
 
 
 live website link = https://pankajnayak009.github.io/Amazone_geniune_Clone/
+![Uploading Screenshot (80).png…]()
