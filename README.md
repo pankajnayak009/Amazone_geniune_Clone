@@ -9,5 +9,6 @@ I’m thrilled to introduce my latest project, an Amazon website clone, develope
 live website link = https://pankajnayak009.github.io/Amazone_geniune_Clone/
 
 
-![Uploading Screenshot (80).png…]()
+![image](https://github.com/user-attachments/assets/9a40b168-0af8-4d8c-920a-c055701f902e)
+
 
